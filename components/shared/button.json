@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_buttons",
+  "info": {
+    "name": "button",
+    "icon": "bullseye"
+  },
+  "options": {},
+  "attributes": {
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "yellow"
+      ],
+      "default": "blue"
+    },
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    }
+  }
+}
