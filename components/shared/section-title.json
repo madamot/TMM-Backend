@@ -21,6 +21,11 @@
         "blue",
         "yellow"
       ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
     }
   }
 }
