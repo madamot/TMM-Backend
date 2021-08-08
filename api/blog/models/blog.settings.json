@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "universals",
+  "collectionName": "blogs",
   "info": {
-    "name": "universal",
-    "description": ""
+    "name": "blog"
   },
   "options": {
     "increments": true,
@@ -19,12 +18,8 @@
       "type": "uid",
       "targetField": "name"
     },
-    "slices": {
-      "type": "dynamiczone",
-      "components": [
-        "slices.hero",
-        "slices.blog-posts"
-      ]
+    "content": {
+      "type": "richtext"
     }
   }
 }
