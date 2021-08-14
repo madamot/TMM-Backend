@@ -22,8 +22,7 @@
     "slices": {
       "type": "dynamiczone",
       "components": [
-        "slices.hero",
-        "slices.blog-posts"
+        "slices.hero"
       ]
     }
   }
