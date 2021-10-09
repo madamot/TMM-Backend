@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "recipes",
+  "info": {
+    "name": "recipe",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "ingredients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe.ingredients"
+    },
+    "course": {
+      "model": "course"
+    },
+    "cuisine": {
+      "model": "cuisine"
+    },
+    "meal": {
+      "model": "meal"
+    }
+  }
+}
