@@ -2,7 +2,8 @@
   "kind": "collectionType",
   "collectionName": "recipes",
   "info": {
-    "name": "recipes"
+    "name": "recipe",
+    "description": ""
   },
   "options": {
     "increments": true,
@@ -13,6 +14,20 @@
   "attributes": {
     "title": {
       "type": "string"
+    },
+    "ingredients": {
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe.ingredients"
+    },
+    "course": {
+      "model": "course"
+    },
+    "cuisine": {
+      "model": "cuisine"
+    },
+    "meal": {
+      "model": "meal"
     }
   }
 }
