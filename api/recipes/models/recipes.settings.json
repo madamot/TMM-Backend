@@ -28,6 +28,11 @@
     },
     "meal": {
       "model": "meal"
+    },
+    "user": {
+      "plugin": "users-permissions",
+      "model": "user",
+      "via": "recipes"
     }
   }
 }
