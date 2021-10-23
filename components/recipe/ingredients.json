@@ -2,12 +2,32 @@
   "collectionName": "components_recipe_ingredients",
   "info": {
     "name": "ingredients",
-    "icon": "receipt"
+    "icon": "receipt",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "ingredient": {
       "type": "string"
+    },
+    "quantity": {
+      "type": "decimal"
+    },
+    "measurement": {
+      "type": "enumeration",
+      "enum": [
+        "quantity",
+        "ml",
+        "g",
+        "tablespoon",
+        "teaspoon",
+        "pinch",
+        "dash",
+        "cup",
+        "pint",
+        "gallon",
+        "oz"
+      ]
     }
   }
 }
