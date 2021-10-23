@@ -33,6 +33,9 @@
       "plugin": "users-permissions",
       "model": "user",
       "via": "recipes"
+    },
+    "method": {
+      "type": "richtext"
     }
   }
 }
