@@ -35,7 +35,9 @@
       "via": "recipes"
     },
     "method": {
-      "type": "richtext"
+      "type": "component",
+      "repeatable": true,
+      "component": "recipe.method"
     }
   }
 }

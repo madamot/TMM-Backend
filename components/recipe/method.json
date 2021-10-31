@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_recipe_methods",
+  "info": {
+    "name": "method",
+    "icon": "tools"
+  },
+  "options": {},
+  "attributes": {
+    "method": {
+      "type": "json"
+    }
+  }
+}
