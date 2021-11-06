@@ -2,12 +2,13 @@
   "collectionName": "components_recipe_methods",
   "info": {
     "name": "method",
-    "icon": "tools"
+    "icon": "tools",
+    "description": ""
   },
   "options": {},
   "attributes": {
     "method": {
-      "type": "json"
+      "type": "text"
     }
   }
 }
