@@ -26,7 +26,10 @@
         "cup",
         "pint",
         "gallon",
-        "oz"
+        "oz",
+        "pack",
+        "slices",
+        "knob"
       ],
       "default": "quantity"
     }
