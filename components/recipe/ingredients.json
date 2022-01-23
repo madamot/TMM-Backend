@@ -9,29 +9,6 @@
   "attributes": {
     "ingredient": {
       "type": "string"
-    },
-    "quantity": {
-      "type": "decimal"
-    },
-    "measurement": {
-      "type": "enumeration",
-      "enum": [
-        "quantity",
-        "ml",
-        "g",
-        "tablespoon",
-        "teaspoon",
-        "pinch",
-        "dash",
-        "cup",
-        "pint",
-        "gallon",
-        "oz",
-        "pack",
-        "slices",
-        "knob"
-      ],
-      "default": "quantity"
     }
   }
 }
