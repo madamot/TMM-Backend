@@ -1,0 +1,31 @@
+{
+  "collectionName": "components_shared_section_titles",
+  "info": {
+    "name": "sectionTitle",
+    "icon": "address-card"
+  },
+  "options": {},
+  "attributes": {
+    "label": {
+      "type": "string"
+    },
+    "title": {
+      "type": "string"
+    },
+    "text": {
+      "type": "richtext"
+    },
+    "theme": {
+      "type": "enumeration",
+      "enum": [
+        "blue",
+        "yellow"
+      ]
+    },
+    "buttons": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.button"
+    }
+  }
+}

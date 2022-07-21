@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_recipe_ingredients",
+  "info": {
+    "name": "ingredients",
+    "icon": "receipt",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "ingredient": {
+      "type": "string"
+    }
+  }
+}

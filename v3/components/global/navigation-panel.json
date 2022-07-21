@@ -1,0 +1,30 @@
+{
+  "collectionName": "components_global_navigation_panels",
+  "info": {
+    "name": "navigationPanel",
+    "icon": "solar-panel"
+  },
+  "options": {},
+  "attributes": {
+    "link": {
+      "type": "component",
+      "repeatable": false,
+      "component": "shared.link"
+    },
+    "sections": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.navigation-section"
+    },
+    "cards": {
+      "type": "component",
+      "repeatable": true,
+      "component": "global.navigation-card"
+    },
+    "links": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.link"
+    }
+  }
+}

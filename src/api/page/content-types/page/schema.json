@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pages",
+  "info": {
+    "singularName": "page",
+    "pluralName": "pages",
+    "displayName": "Page",
+    "name": "page"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    },
+    "universal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::universal.universal"
+    },
+    "slices": {
+      "type": "dynamiczone",
+      "components": [
+        "slices.hero"
+      ]
+    }
+  }
+}
