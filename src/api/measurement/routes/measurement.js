@@ -1,34 +1,3 @@
-module.exports = {
-  routes: [
-    {
-      method: 'GET',
-      path: '/measurements',
-      handler: 'measurement.find',
-      config: { policies: [] }
-    },
-    {
-      method: 'GET',
-      path: '/measurements/:id',
-      handler: 'measurement.findOne',
-      config: { policies: [] }
-    },
-    {
-      method: 'POST',
-      path: '/measurements',
-      handler: 'measurement.create',
-      config: { policies: [] }
-    },
-    {
-      method: 'PUT',
-      path: '/measurements/:id',
-      handler: 'measurement.update',
-      config: { policies: [] }
-    },
-    {
-      method: 'DELETE',
-      path: '/measurements/:id',
-      handler: 'measurement.delete',
-      config: { policies: [] }
-    }
-  ]
-}
+const { createCoreRouter } = require('@strapi/strapi').factories;
+
+module.exports = createCoreRouter('api::measurement.measurement');

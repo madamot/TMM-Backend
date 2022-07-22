@@ -1,34 +1,3 @@
-module.exports = {
-  routes: [
-    {
-      method: 'GET',
-      path: '/cuisines',
-      handler: 'cuisine.find',
-      config: { policies: [] }
-    },
-    {
-      method: 'GET',
-      path: '/cuisines/:id',
-      handler: 'cuisine.findOne',
-      config: { policies: [] }
-    },
-    {
-      method: 'POST',
-      path: '/cuisines',
-      handler: 'cuisine.create',
-      config: { policies: [] }
-    },
-    {
-      method: 'PUT',
-      path: '/cuisines/:id',
-      handler: 'cuisine.update',
-      config: { policies: [] }
-    },
-    {
-      method: 'DELETE',
-      path: '/cuisines/:id',
-      handler: 'cuisine.delete',
-      config: { policies: [] }
-    }
-  ]
-}
+const { createCoreRouter } = require('@strapi/strapi').factories;
+
+module.exports = createCoreRouter('api::cuisine.cuisine');
